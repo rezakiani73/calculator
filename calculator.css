@@ -1,3 +1,29 @@
-td{
-    background: red;
+table{
+    height: 500px !important;
+    border: 1px solid #bbb;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+input[type="Button"] {
+    border-radius: 33px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+.numeric{
+    background: #fae5ec;
+}
+.opration
+{
+    background: #ba68c6;
+    color: white;
+}
+.equal{
+    background:  #e8c213;
+    color: white;
+}
+.display_result{
+    height: 100px;
 }
