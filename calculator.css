@@ -3,6 +3,8 @@ table{
     border: 1px solid #bbb;
     padding: 20px;
     border-radius: 15px;
+    margin-top: 60px;
+    position: relative;
 
 }
 input[type="Button"] {
@@ -21,8 +23,12 @@ input[type="Button"] {
     color: white;
 }
 .equal{
-    background:  #e8c213;
+    background: #e8c213;
     color: white;
+    position: absolute;
+    right: 22px;
+    height: 120px !important;
+    bottom: 32px;
 }
 .display_result{
     height: 100px;
