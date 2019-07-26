@@ -1,11 +1,12 @@
 <!-- this script got from www.javascriptfreecode.com-Coded by: Krishna Eydat -->
 <CENTER>
+    <script src="JQuery.js" type="text/javascriptt"></script>
 <link type="text/css" href="calculator.css" rel="stylesheet">
 <FORM name="Keypad" action="">
 <TABLE>
 <TR class="display_result">
 <TD colspan=3 >
-    <input name="ReadOut" type="Text" size=24 value="0" width=100%>
+    <input name="ReadOut" type="button" size=24 value="0" width=100%>
 </TD>
 
 
@@ -68,13 +69,13 @@
 </TR>
 <TR>
 <TD>
-<input name="btnDecimal" type="Button" value="   .  " onclick="Decimal()">
+<input name="btnDecimal" class="another_btn" type="Button" value="   .  " onclick="Decimal()">
 </TD>
 <TD>
 <input name="btnZero" class="numeric" type="Button" value="  0  " onclick="NumPressed(0)">
 </TD>
 <TD>
-<input name="btnClear" type="Button" value="  C  " onclick="Clear()">
+<input name="btnClear" class="another_btn" type="Button" value="  C  " onclick="Clear()">
 </TD>
 <TD>
 <input name="btnEquals" class="equal" type="Button" value="  =  " onclick="Operation('=')">
